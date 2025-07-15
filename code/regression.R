@@ -5,7 +5,7 @@ library(readr)
 library(dplyr)
 
 # Load the data
-data <- read_csv("final-dataset.csv")
+data <- read_csv("../data/processed/final-dataset.csv")
 
 # Quick look at the data
 print("First few rows of the data:")

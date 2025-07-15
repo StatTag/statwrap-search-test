@@ -47,7 +47,7 @@ def plot_correlation_heatmap(df):
     plt.show()
 
 def main():
-    file_path = "final-dataset.csv"
+    file_path = "../data/processed/final-dataset.csv"
     df = load_data(file_path)
     if df is not None:
         # Example plots assuming these columns exist

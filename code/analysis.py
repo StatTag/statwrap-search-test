@@ -32,7 +32,7 @@ def analyze_data(df):
         print("\nColumns 'category' and 'value' not found in dataset for group analysis.")
 
 def main():
-    file_path = "final-dataset.csv"
+    file_path = "../data/processed/final-dataset.csv"
     df = load_data(file_path)
     if df is not None:
         explore_data(df)
