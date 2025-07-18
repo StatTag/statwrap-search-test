@@ -48,6 +48,8 @@ Given these preliminary observations, we sought to formally test whether partici
 
 The positive correlation seen in the initial exploratory analysis supported trying a linear approach as a first step.
 
+Additionally we considered latent class analysis and will need to integrate that into the methods as well.
+
 ---
 
 ## Modeling process
